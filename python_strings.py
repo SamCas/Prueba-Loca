@@ -13,3 +13,6 @@ print(x)
 # Indexing.
 x = "Hello World"
 print("This is the first letter: ", x[0])
+
+# Slicing.
+print("This is the string after 'Hello'", x[5:])
