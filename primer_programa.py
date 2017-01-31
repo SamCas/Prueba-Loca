@@ -1,2 +1,1 @@
-x = "yolo"
-print(x)
+print("Esto esta mejor")
