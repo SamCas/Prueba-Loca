@@ -22,4 +22,4 @@ print("This is the string without the last letter: ", x[:-1])
 
 # Frequencies.
 print(x[::2])
-print(x[::-1])
+print(x[::-1]) # Prints the string backwards.
