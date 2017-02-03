@@ -16,5 +16,5 @@ print("Conver to string: %s" %(123))
 # Prnting multiple variables.
 print("First: %s, Second: %s, Third: %s" %('hi', 'two', 3))
 
-# Proper string formatting.
+# Proper string formatting using format() function.
 print("First: {x} Second: {y} Third: {x}".format(x='inserted',y='Two!'))
