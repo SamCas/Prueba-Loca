@@ -23,3 +23,22 @@ print("This is the string without the last letter: ", x[:-1])
 # Frequencies.
 print(x[::2])
 print(x[::-1]) # Prints the string backwards.
+
+# Immutability. You can change particular sections of a string, but you can
+# concatenate another string.
+b = "I like turtules!"
+b = b + " ME TOO!"
+print(b)
+
+# Multiply on strings.
+letter = 'z'
+letter = letter*10
+print(letter)
+
+# Method calling. (Strings)
+name = "Samuel Castillo Gaxiola"
+print(name)
+print(name.upper()) # Upper Case
+print(name.lower()) # Lower Case
+print(name.split())
+print(name.split('a'))
