@@ -39,3 +39,9 @@ l_3 = [7,8,9]
 
 matrix = [l_1,l_2,l_3]
 print(matrix)
+
+print(matrix[0][0])
+
+# First column of the matrix
+first_col = [row[0] for row in matrix]
+print(first_col)
