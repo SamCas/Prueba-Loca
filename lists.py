@@ -20,3 +20,22 @@ print(modify_list)
 l = [1,2,3]
 l.append('append me!')
 print(l)
+
+# Pop grabs the last item on the list.
+print(l.pop())
+x = l.pop(0)
+print(x)
+
+new_list = ['a','b','e','c','d']
+new_list.reverse()
+print(new_list)
+new_list.sort()
+print(new_list)
+
+# List inside of a list.
+l_1 = [1,2,3]
+l_2 = [4,5,6]
+l_3 = [7,8,9]
+
+matrix = [l_1,l_2,l_3]
+print(matrix)
